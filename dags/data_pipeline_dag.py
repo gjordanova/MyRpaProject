@@ -3,7 +3,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 from config.settings import BASE_URL
-from src.utils.helpers import get_output_paths, save_raw
+from src.utils.helpers import get_output_paths
 from src.scrapers.books_scraper import scrape_books
 from src.processors.data_processor import process_data
 from src.validators.data_validator import validate_data
@@ -20,7 +20,6 @@ default_args = {
 with DAG(
     dag_id="data_pipeline",
     default_args=default_args,
-    description="scrape → process → validate → report",
     start_date=datetime(2025, 1, 1),
     schedule_interval="@daily",
     catchup=False,
@@ -40,7 +39,7 @@ with DAG(
     )
     t4 = PythonOperator(
         task_id="generate_report",
-        python_callable=lambda: generate_report(paths["processed"], paths["report"]),
+        python_callable=lambda: generate_report(paths["processed"], paths["reports"]),
     )
 
     t1 >> t2 >> t3 >> t4
