@@ -1,0 +1,15 @@
+setup.py
+src/my_rpa_project.egg-info/PKG-INFO
+src/my_rpa_project.egg-info/SOURCES.txt
+src/my_rpa_project.egg-info/dependency_links.txt
+src/my_rpa_project.egg-info/requires.txt
+src/my_rpa_project.egg-info/top_level.txt
+src/processors/__init__.py
+src/processors/data_processor.py
+src/reporters/__init__.py
+src/reporters/report_generator.py
+src/scrapers/__init__.py
+src/scrapers/books_scraper.py
+src/validators/__init__.py
+src/validators/data_validator.py
+tests/test_books_scraper.py

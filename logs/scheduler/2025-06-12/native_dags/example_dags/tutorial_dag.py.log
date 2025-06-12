@@ -1,0 +1,260 @@
+[2025-06-12T10:36:27.352+0200] {processor.py:186} INFO - Started process (PID=8410) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:36:27.352+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:36:27.352+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.352+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:36:27.360+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:36:27.407+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.406+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-06-12T10:36:27.409+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.409+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-06-12T10:36:27.410+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.410+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-06-12T10:36:27.412+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.412+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2025-06-12T10:36:27.413+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.413+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2025-06-12T10:36:27.415+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.415+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2025-06-12T10:36:27.416+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.416+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2025-06-12T10:36:27.416+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.416+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:36:27.419+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.419+0200] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2025-06-12T10:36:27.419+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:27.419+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:36:27.423+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds
+[2025-06-12T10:37:55.852+0200] {processor.py:186} INFO - Started process (PID=8486) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:37:55.853+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:37:55.853+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:37:55.853+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:37:55.861+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:37:55.889+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:37:55.889+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:37:55.892+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:37:55.892+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:37:55.897+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-06-12T10:38:50.187+0200] {processor.py:186} INFO - Started process (PID=8531) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:38:50.188+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:38:50.188+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:38:50.188+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:38:50.197+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:38:50.223+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:38:50.223+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:38:50.226+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:38:50.226+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:38:50.231+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-12T10:39:42.754+0200] {processor.py:186} INFO - Started process (PID=8574) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:39:42.754+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:39:42.755+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:39:42.754+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:39:42.763+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:39:42.790+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:39:42.790+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:39:42.794+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:39:42.794+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:39:42.799+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-06-12T10:40:33.492+0200] {processor.py:186} INFO - Started process (PID=8614) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:40:33.493+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:40:33.493+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:40:33.493+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:40:33.501+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:40:33.529+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:40:33.529+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:40:33.532+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:40:33.532+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:40:33.537+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-06-12T10:41:25.577+0200] {processor.py:186} INFO - Started process (PID=8664) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:41:25.578+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:41:25.578+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:41:25.578+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:41:25.586+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:41:25.613+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:41:25.613+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:41:25.617+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:41:25.617+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:41:25.621+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T10:42:19.102+0200] {processor.py:186} INFO - Started process (PID=8703) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:42:19.102+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:42:19.102+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:42:19.102+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:42:19.110+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:42:19.137+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:42:19.137+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:42:19.140+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:42:19.140+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:42:19.144+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-12T10:43:12.568+0200] {processor.py:186} INFO - Started process (PID=8754) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:43:12.569+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:43:12.569+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:43:12.569+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:43:12.576+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:43:12.603+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:43:12.603+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:43:12.606+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:43:12.606+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:43:12.611+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2025-06-12T10:44:05.873+0200] {processor.py:186} INFO - Started process (PID=8857) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:44:05.874+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:44:05.875+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:44:05.875+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:44:05.882+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:44:05.910+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:44:05.910+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:44:05.913+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:44:05.913+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:44:05.918+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T10:44:58.865+0200] {processor.py:186} INFO - Started process (PID=8897) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:44:58.866+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:44:58.866+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:44:58.866+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:44:58.876+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:44:58.906+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:44:58.905+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:44:58.909+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:44:58.909+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:44:58.914+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.050 seconds
+[2025-06-12T10:45:51.901+0200] {processor.py:186} INFO - Started process (PID=8941) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:45:51.901+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:45:51.901+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:45:51.901+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:45:51.909+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:45:51.936+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:45:51.936+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:45:51.939+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:45:51.939+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:45:51.944+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-12T10:46:44.570+0200] {processor.py:186} INFO - Started process (PID=9004) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:46:44.571+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:46:44.572+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:46:44.572+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:46:44.580+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:46:44.608+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:46:44.607+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:46:44.611+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:46:44.611+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:46:44.615+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-06-12T10:47:42.243+0200] {processor.py:186} INFO - Started process (PID=9075) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:47:42.243+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:47:42.243+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:42.243+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:47:42.251+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:47:42.278+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:42.278+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:47:42.281+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:42.281+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:47:42.285+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-12T10:48:37.547+0200] {processor.py:186} INFO - Started process (PID=9155) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:48:37.548+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:48:37.549+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:48:37.549+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:48:37.556+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:48:37.583+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:48:37.583+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:48:37.587+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:48:37.587+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:48:37.591+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T10:49:30.752+0200] {processor.py:186} INFO - Started process (PID=9210) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:49:30.753+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:49:30.753+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:49:30.753+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:49:30.761+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:49:30.789+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:49:30.788+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:49:30.792+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:49:30.792+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:49:30.797+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T10:56:39.975+0200] {processor.py:186} INFO - Started process (PID=9416) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:56:39.976+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:56:39.976+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:56:39.976+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:56:39.985+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:56:40.015+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:56:40.015+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:56:40.019+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:56:40.019+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:56:40.024+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.050 seconds
+[2025-06-12T10:58:06.573+0200] {processor.py:186} INFO - Started process (PID=9514) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:58:06.574+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T10:58:06.574+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:58:06.574+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:58:06.582+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T10:58:06.609+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:58:06.609+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:58:06.612+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:58:06.612+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T10:58:06.617+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-12T11:11:25.751+0200] {processor.py:186} INFO - Started process (PID=9732) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:11:25.752+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:11:25.752+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:11:25.752+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:11:25.760+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:11:25.785+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:11:25.785+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:11:25.788+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:11:25.788+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:11:25.793+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2025-06-12T11:12:51.100+0200] {processor.py:186} INFO - Started process (PID=9822) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:12:51.100+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:12:51.100+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:12:51.100+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:12:51.109+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:12:51.138+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:12:51.138+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:12:51.142+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:12:51.142+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:12:51.148+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2025-06-12T11:21:31.747+0200] {processor.py:186} INFO - Started process (PID=10025) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:21:31.748+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:21:31.748+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:21:31.748+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:21:31.756+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:21:31.782+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:21:31.782+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:21:31.785+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:21:31.785+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:21:31.790+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2025-06-12T11:22:55.874+0200] {processor.py:186} INFO - Started process (PID=10109) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:22:55.874+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:22:55.875+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:22:55.875+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:22:55.885+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:22:55.914+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:22:55.914+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:22:55.918+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:22:55.918+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:22:55.923+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.050 seconds
+[2025-06-12T11:23:52.279+0200] {processor.py:186} INFO - Started process (PID=10168) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:23:52.279+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:23:52.280+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:23:52.280+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:23:52.287+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:23:52.314+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:23:52.314+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:23:52.318+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:23:52.318+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:23:52.322+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-12T11:40:47.447+0200] {processor.py:186} INFO - Started process (PID=10393) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:40:47.448+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:40:47.448+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:40:47.448+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:40:47.457+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:40:47.483+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:40:47.483+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:40:47.486+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:40:47.486+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:40:47.490+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T11:42:11.637+0200] {processor.py:186} INFO - Started process (PID=10475) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:42:11.638+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:42:11.638+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:42:11.638+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:42:11.646+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:42:11.672+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:42:11.672+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:42:11.675+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:42:11.675+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:42:11.680+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2025-06-12T11:43:03.552+0200] {processor.py:186} INFO - Started process (PID=10536) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:43:03.552+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:43:03.553+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:43:03.553+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:43:03.561+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:43:03.588+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:43:03.588+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:43:03.592+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:43:03.592+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:43:03.596+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T11:49:34.104+0200] {processor.py:186} INFO - Started process (PID=10616) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:49:34.104+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:49:34.104+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:49:34.104+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:49:34.113+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:49:34.142+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:49:34.141+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:49:34.145+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:49:34.145+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:49:34.150+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.047 seconds
+[2025-06-12T11:51:02.049+0200] {processor.py:186} INFO - Started process (PID=10704) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:51:02.050+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:51:02.050+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:02.050+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:51:02.057+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:51:02.084+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:02.084+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:51:02.088+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:02.088+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:51:02.093+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T11:51:55.030+0200] {processor.py:186} INFO - Started process (PID=10756) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:51:55.031+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:51:55.031+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:55.031+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:51:55.039+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:51:55.067+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:55.067+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:51:55.070+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:55.070+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:51:55.075+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T11:52:48.182+0200] {processor.py:186} INFO - Started process (PID=10816) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:52:48.182+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:52:48.183+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:52:48.183+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:52:48.190+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:52:48.218+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:52:48.218+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:52:48.222+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:52:48.222+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:52:48.226+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T11:53:42.164+0200] {processor.py:186} INFO - Started process (PID=10857) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:53:42.165+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:53:42.166+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:53:42.166+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:53:42.173+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:53:42.201+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:53:42.201+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:53:42.204+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:53:42.204+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:53:42.209+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T11:54:36.876+0200] {processor.py:186} INFO - Started process (PID=10899) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:54:36.877+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:54:36.877+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:54:36.877+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:54:36.885+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:54:36.911+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:54:36.911+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:54:36.915+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:54:36.915+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:54:36.919+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-12T11:55:31.026+0200] {processor.py:186} INFO - Started process (PID=10958) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:55:31.027+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:55:31.028+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:55:31.028+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:55:31.035+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:55:31.062+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:55:31.062+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:55:31.066+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:55:31.065+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:55:31.070+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T11:56:26.473+0200] {processor.py:186} INFO - Started process (PID=11016) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:56:26.474+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:56:26.475+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:56:26.475+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:56:26.484+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:56:26.513+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:56:26.512+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:56:26.516+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:56:26.516+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:56:26.521+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2025-06-12T11:57:21.758+0200] {processor.py:186} INFO - Started process (PID=11081) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:57:21.759+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T11:57:21.759+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:57:21.759+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:57:21.767+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T11:57:21.794+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:57:21.794+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:57:21.797+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:57:21.797+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T11:57:21.802+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-12T13:14:19.615+0200] {processor.py:186} INFO - Started process (PID=12986) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T13:14:19.616+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T13:14:19.617+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:14:19.617+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T13:14:19.625+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T13:14:19.653+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:14:19.653+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T13:14:19.656+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:14:19.656+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T13:14:19.661+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-06-12T13:15:53.691+0200] {processor.py:186} INFO - Started process (PID=13075) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T13:15:53.692+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-12T13:15:53.693+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:15:53.693+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T13:15:53.701+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-12T13:15:53.729+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:15:53.729+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T13:15:53.733+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:15:53.733+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-12T13:15:53.737+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.047 seconds

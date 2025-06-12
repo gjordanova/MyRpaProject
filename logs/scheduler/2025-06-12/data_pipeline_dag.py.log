@@ -1,0 +1,426 @@
+[2025-06-12T10:36:14.059+0200] {processor.py:186} INFO - Started process (PID=8394) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:36:14.060+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:36:14.060+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:14.060+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:36:14.067+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:36:14.066+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:36:14.067+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:36:14.246+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.188 seconds
+[2025-06-12T10:37:41.918+0200] {processor.py:186} INFO - Started process (PID=8476) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:37:41.919+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:37:41.919+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:37:41.919+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:37:41.925+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:37:41.925+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:37:41.925+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:37:42.111+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.195 seconds
+[2025-06-12T10:38:37.815+0200] {processor.py:186} INFO - Started process (PID=8520) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:38:37.816+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:38:37.816+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:38:37.816+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:38:37.823+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:38:37.823+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:38:37.823+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:38:38.009+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.195 seconds
+[2025-06-12T10:39:29.694+0200] {processor.py:186} INFO - Started process (PID=8564) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:39:29.695+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:39:29.695+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:39:29.695+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:39:29.701+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:39:29.701+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:39:29.702+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:39:29.893+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.200 seconds
+[2025-06-12T10:40:20.443+0200] {processor.py:186} INFO - Started process (PID=8604) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:40:20.443+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:40:20.443+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:40:20.443+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:40:20.450+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:40:20.449+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:40:20.450+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:40:20.639+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.197 seconds
+[2025-06-12T10:41:11.571+0200] {processor.py:186} INFO - Started process (PID=8652) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:41:11.572+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:41:11.573+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:41:11.573+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:41:11.579+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:41:11.579+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:41:11.579+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:41:11.797+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.227 seconds
+[2025-06-12T10:42:06.185+0200] {processor.py:186} INFO - Started process (PID=8693) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:42:06.185+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:42:06.185+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:42:06.185+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:42:06.191+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:42:06.191+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:42:06.191+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:42:06.380+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.196 seconds
+[2025-06-12T10:42:58.506+0200] {processor.py:186} INFO - Started process (PID=8740) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:42:58.506+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:42:58.506+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:42:58.506+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:42:58.512+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:42:58.512+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:42:58.512+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:42:58.702+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.197 seconds
+[2025-06-12T10:43:53.596+0200] {processor.py:186} INFO - Started process (PID=8844) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:43:53.596+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:43:53.597+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:43:53.596+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:43:53.604+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:43:53.603+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:43:53.604+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:43:53.832+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.237 seconds
+[2025-06-12T10:44:45.783+0200] {processor.py:186} INFO - Started process (PID=8888) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:44:45.784+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:44:45.784+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:44:45.784+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:44:45.791+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:44:45.791+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:44:45.791+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:44:45.994+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.212 seconds
+[2025-06-12T10:45:39.498+0200] {processor.py:186} INFO - Started process (PID=8927) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:45:39.498+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:45:39.498+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:45:39.498+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:45:39.505+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:45:39.505+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:45:39.505+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:45:39.696+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.200 seconds
+[2025-06-12T10:46:30.711+0200] {processor.py:186} INFO - Started process (PID=8987) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:46:30.711+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:46:30.712+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:46:30.712+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:46:30.719+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:46:30.718+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from scrapers.books_scraper     import scrape_books
+ModuleNotFoundError: No module named 'scrapers'
+[2025-06-12T10:46:30.719+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:46:30.946+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.236 seconds
+[2025-06-12T10:47:24.275+0200] {processor.py:186} INFO - Started process (PID=9054) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:47:24.276+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:47:24.276+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:24.276+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:47:29.595+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.582+0200] {font_manager.py:1095} WARNING - Matplotlib is building the font cache; this may take a moment.
+[2025-06-12T10:47:29.724+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.724+0200] {font_manager.py:1107} INFO - Failed to extract font properties from /System/Library/Fonts/ZitherIndia.otf: Can not load face (SFNT font table missing; error code 0x8e)
+[2025-06-12T10:47:29.743+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.743+0200] {font_manager.py:1107} INFO - Failed to extract font properties from /System/Library/Fonts/LastResort.otf: tuple indices must be integers or slices, not str
+[2025-06-12T10:47:29.743+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.743+0200] {font_manager.py:1107} INFO - Failed to extract font properties from /System/Library/Fonts/Supplemental/NISC18030.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+[2025-06-12T10:47:29.763+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.763+0200] {font_manager.py:1107} INFO - Failed to extract font properties from /System/Library/Fonts/Apple Color Emoji.ttc: Could not set the fontsize (invalid pixel size; error code 0x17)
+[2025-06-12T10:47:29.787+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.787+0200] {font_manager.py:1107} INFO - Failed to extract font properties from /System/Library/Fonts/ZitherIndiaNarrow.otf: Can not load face (SFNT font table missing; error code 0x8e)
+[2025-06-12T10:47:29.793+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.793+0200] {font_manager.py:1107} INFO - Failed to extract font properties from /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc: Can not load face (locations (loca) table missing; error code 0x90)
+[2025-06-12T10:47:29.802+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.802+0200] {font_manager.py:1639} INFO - generated new fontManager
+[2025-06-12T10:47:29.886+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:47:29.972+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.972+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:data_pipeline
+[2025-06-12T10:47:29.974+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.974+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:data_pipeline
+[2025-06-12T10:47:29.975+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.975+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:data_pipeline
+[2025-06-12T10:47:29.977+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.977+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:data_pipeline
+[2025-06-12T10:47:29.979+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.978+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:data_pipeline
+[2025-06-12T10:47:29.980+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.980+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:data_pipeline
+[2025-06-12T10:47:29.982+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.981+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:data_pipeline
+[2025-06-12T10:47:29.982+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.982+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:47:29.985+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.985+0200] {dag.py:3262} INFO - Creating ORM DAG for data_pipeline
+[2025-06-12T10:47:29.987+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:47:29.987+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T10:47:29.991+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 5.717 seconds
+[2025-06-12T10:48:24.303+0200] {processor.py:186} INFO - Started process (PID=9136) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:48:24.304+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:48:24.304+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:48:24.304+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:48:24.664+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:48:24.692+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:48:24.691+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:48:24.697+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:48:24.697+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T10:48:24.701+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.399 seconds
+[2025-06-12T10:49:17.973+0200] {processor.py:186} INFO - Started process (PID=9197) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:49:17.974+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:49:17.974+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:49:17.974+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:49:18.299+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:49:18.327+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:49:18.327+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T10:49:18.332+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:49:18.332+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T10:49:18.336+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.365 seconds
+[2025-06-12T10:56:26.337+0200] {processor.py:186} INFO - Started process (PID=9390) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:56:26.338+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:56:26.338+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:56:26.338+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:56:26.345+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:56:26.344+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from src.scrapers.books_scraper import scrape_books
+ModuleNotFoundError: No module named 'src'
+[2025-06-12T10:56:26.345+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:56:26.532+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.196 seconds
+[2025-06-12T10:57:52.571+0200] {processor.py:186} INFO - Started process (PID=9496) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:57:52.572+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T10:57:52.572+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:57:52.572+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:57:52.578+0200] {logging_mixin.py:190} INFO - [2025-06-12T10:57:52.578+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from src.scrapers.books_scraper import scrape_books
+ModuleNotFoundError: No module named 'src'
+[2025-06-12T10:57:52.579+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T10:57:52.766+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.196 seconds
+[2025-06-12T11:11:12.264+0200] {processor.py:186} INFO - Started process (PID=9715) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:11:12.265+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:11:12.265+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:11:12.265+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:11:12.272+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:11:12.272+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from src.scrapers.books_scraper import scrape_books
+ModuleNotFoundError: No module named 'src'
+[2025-06-12T11:11:12.272+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:11:12.455+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.192 seconds
+[2025-06-12T11:12:37.024+0200] {processor.py:186} INFO - Started process (PID=9809) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:12:37.025+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:12:37.025+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:12:37.025+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:12:37.031+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:12:37.031+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 6, in <module>
+    from src.scrapers.books_scraper import scrape_books
+ModuleNotFoundError: No module named 'src'
+[2025-06-12T11:12:37.031+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:12:37.220+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.197 seconds
+[2025-06-12T11:21:18.241+0200] {processor.py:186} INFO - Started process (PID=9995) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:21:18.242+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:21:18.242+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:21:18.242+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:21:18.571+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:21:18.648+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:21:18.648+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:21:18.653+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:21:18.653+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:21:18.658+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.418 seconds
+[2025-06-12T11:22:41.928+0200] {processor.py:186} INFO - Started process (PID=10094) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:22:41.929+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:22:41.929+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:22:41.929+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:22:42.257+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:22:42.286+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:22:42.286+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:22:42.291+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:22:42.291+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:22:42.296+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.369 seconds
+[2025-06-12T11:23:38.277+0200] {processor.py:186} INFO - Started process (PID=10155) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:23:38.278+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:23:38.278+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:23:38.278+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:23:38.605+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:23:38.633+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:23:38.633+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:23:38.638+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:23:38.638+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:23:38.643+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.367 seconds
+[2025-06-12T11:40:34.113+0200] {processor.py:186} INFO - Started process (PID=10371) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:40:34.114+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:40:34.114+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:40:34.114+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:40:34.438+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:40:34.516+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:40:34.516+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:40:34.521+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:40:34.521+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:40:34.525+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.413 seconds
+[2025-06-12T11:41:57.830+0200] {processor.py:186} INFO - Started process (PID=10461) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:41:57.831+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:41:57.832+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:41:57.832+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:41:58.182+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:41:58.236+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:41:58.236+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:41:58.241+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:41:58.241+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:41:58.246+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.416 seconds
+[2025-06-12T11:42:50.886+0200] {processor.py:186} INFO - Started process (PID=10520) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:42:50.886+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:42:50.887+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:42:50.887+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:42:51.222+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:42:51.277+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:42:51.277+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:42:51.282+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:42:51.282+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:42:51.287+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.402 seconds
+[2025-06-12T11:49:20.537+0200] {processor.py:186} INFO - Started process (PID=10592) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:49:20.538+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:49:20.538+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:49:20.538+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:49:20.878+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:49:20.932+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:49:20.931+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:49:20.936+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:49:20.936+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:49:20.941+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.405 seconds
+[2025-06-12T11:50:47.644+0200] {processor.py:186} INFO - Started process (PID=10688) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:50:47.645+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:50:47.646+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:50:47.645+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:50:47.976+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:50:48.029+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:50:48.029+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:50:48.034+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:50:48.034+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:50:48.038+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.395 seconds
+[2025-06-12T11:51:42.171+0200] {processor.py:186} INFO - Started process (PID=10743) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:51:42.172+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:51:42.173+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:42.172+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:51:42.503+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:51:42.558+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:42.558+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:51:42.563+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:51:42.563+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:51:42.569+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.399 seconds
+[2025-06-12T11:52:35.658+0200] {processor.py:186} INFO - Started process (PID=10806) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:52:35.659+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:52:35.659+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:52:35.659+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:52:35.983+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:52:36.038+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:52:36.037+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:52:36.043+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:52:36.043+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:52:36.047+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.390 seconds
+[2025-06-12T11:53:29.763+0200] {processor.py:186} INFO - Started process (PID=10847) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:53:29.764+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:53:29.764+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:53:29.764+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:53:30.082+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:53:30.135+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:53:30.135+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:53:30.140+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:53:30.140+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:53:30.144+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.382 seconds
+[2025-06-12T11:54:24.675+0200] {processor.py:186} INFO - Started process (PID=10890) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:54:24.676+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:54:24.676+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:54:24.676+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:54:25.041+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:54:25.093+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:54:25.093+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:54:25.098+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:54:25.098+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:54:25.102+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.428 seconds
+[2025-06-12T11:55:17.027+0200] {processor.py:186} INFO - Started process (PID=10945) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:55:17.028+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:55:17.029+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:55:17.029+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:55:17.391+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:55:17.446+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:55:17.446+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:55:17.451+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:55:17.451+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:55:17.456+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.429 seconds
+[2025-06-12T11:56:11.976+0200] {processor.py:186} INFO - Started process (PID=11002) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:56:11.977+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:56:11.977+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:56:11.977+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:56:12.305+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:56:12.359+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:56:12.359+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:56:12.364+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:56:12.364+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:56:12.368+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.393 seconds
+[2025-06-12T11:57:08.472+0200] {processor.py:186} INFO - Started process (PID=11062) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:57:08.473+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T11:57:08.473+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:57:08.473+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:57:08.833+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T11:57:08.898+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:57:08.898+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T11:57:08.904+0200] {logging_mixin.py:190} INFO - [2025-06-12T11:57:08.904+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-06-12T11:57:08.909+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.438 seconds
+[2025-06-12T12:14:14.504+0200] {processor.py:186} INFO - Started process (PID=11489) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:14:14.504+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T12:14:14.505+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:14:14.505+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:14:14.859+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:14:14.916+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:14:14.916+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T12:14:14.922+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:14:14.922+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-12T12:14:14.927+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.424 seconds
+[2025-06-12T12:19:33.325+0200] {processor.py:186} INFO - Started process (PID=11571) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:19:33.326+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T12:19:33.326+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:19:33.326+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:19:33.717+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:19:33.782+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:19:33.782+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T12:19:33.788+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:19:33.788+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-12T12:19:33.793+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.469 seconds
+[2025-06-12T12:23:51.362+0200] {processor.py:186} INFO - Started process (PID=11700) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:23:51.363+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T12:23:51.364+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:23:51.363+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:23:51.711+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:23:51.770+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:23:51.769+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T12:23:51.775+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:23:51.775+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-12T12:23:51.780+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.419 seconds
+[2025-06-12T12:29:56.094+0200] {processor.py:186} INFO - Started process (PID=11949) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:29:56.095+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T12:29:56.095+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:29:56.095+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:29:56.438+0200] {processor.py:925} INFO - DAG(s) 'data_pipeline' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T12:29:56.499+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:29:56.499+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T12:29:56.505+0200] {logging_mixin.py:190} INFO - [2025-06-12T12:29:56.505+0200] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-12T12:29:56.510+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.417 seconds
+[2025-06-12T13:13:57.022+0200] {processor.py:186} INFO - Started process (PID=12952) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T13:13:57.023+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T13:13:57.024+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:13:57.023+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T13:13:57.060+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:13:57.060+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 5, in <module>
+    from scrapers.books_scraper   import scrape_books
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/src/scrapers/books_scraper.py", line 3, in <module>
+    from src.utils.helpers import get_output_paths, save_raw
+ModuleNotFoundError: No module named 'src'
+[2025-06-12T13:13:57.061+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T13:13:57.259+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.238 seconds
+[2025-06-12T13:15:38.297+0200] {processor.py:186} INFO - Started process (PID=13061) to work on /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T13:15:38.297+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py for tasks to queue
+[2025-06-12T13:15:38.298+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:15:38.297+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T13:15:38.333+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:15:38.332+0200] {dagbag.py:387} ERROR - Failed to import: /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py", line 5, in <module>
+    from scrapers.books_scraper   import scrape_books
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/src/scrapers/books_scraper.py", line 3, in <module>
+    from src.utils.helpers import get_output_paths, save_raw
+ModuleNotFoundError: No module named 'src'
+[2025-06-12T13:15:38.333+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py
+[2025-06-12T13:15:38.564+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/dags/data_pipeline_dag.py took 0.268 seconds
