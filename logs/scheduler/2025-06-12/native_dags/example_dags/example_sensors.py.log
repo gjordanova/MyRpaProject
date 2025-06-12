@@ -160,3 +160,45 @@
 [2025-06-12T13:14:47.965+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:14:47.965+0200] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-06-12T13:14:47.968+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:14:47.968+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2025-06-12T13:14:47.973+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.252 seconds
+[2025-06-12T18:42:30.181+0200] {processor.py:186} INFO - Started process (PID=15667) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:42:30.182+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T18:42:30.182+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:42:30.182+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:42:30.187+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:42:30.387+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:42:30.386+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T18:42:30.390+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:42:30.390+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T18:42:30.395+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.215 seconds
+[2025-06-12T18:52:14.669+0200] {processor.py:186} INFO - Started process (PID=15898) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:52:14.670+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T18:52:14.670+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:52:14.670+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:52:14.675+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:52:14.926+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:52:14.926+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T18:52:14.930+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:52:14.930+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T18:52:14.935+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.267 seconds
+[2025-06-12T18:55:26.475+0200] {processor.py:186} INFO - Started process (PID=15984) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:55:26.476+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T18:55:26.476+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:55:26.476+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:55:26.480+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T18:55:26.694+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:55:26.694+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T18:55:26.697+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:55:26.697+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T18:55:26.702+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.228 seconds
+[2025-06-12T19:00:33.475+0200] {processor.py:186} INFO - Started process (PID=16129) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:00:33.476+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T19:00:33.476+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:00:33.476+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:00:33.480+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:00:33.723+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:00:33.723+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T19:00:33.726+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:00:33.726+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T19:00:33.731+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.257 seconds
+[2025-06-12T19:11:09.924+0200] {processor.py:186} INFO - Started process (PID=16459) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:11:09.925+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T19:11:09.925+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:11:09.925+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:11:09.929+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:11:10.169+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:11:10.169+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T19:11:10.172+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:11:10.172+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T19:11:10.177+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.254 seconds
+[2025-06-12T19:14:14.129+0200] {processor.py:186} INFO - Started process (PID=16651) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:14:14.130+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T19:14:14.130+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:14:14.130+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:14:14.134+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T19:14:14.376+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:14:14.376+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T19:14:14.379+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:14:14.379+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T19:14:14.384+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.256 seconds

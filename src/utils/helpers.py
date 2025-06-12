@@ -1,10 +1,19 @@
+# src/utils/helpers.py
 import os
+import json
 
-def get_output_paths(base_dir=None):
-    base = base_dir or os.path.join(os.getcwd(), "outputs")
-    raw = os.path.join(base, "raw", "books.csv")
-    processed = os.path.join(base, "processed", "books_clean.csv")
-    reports = os.path.join(base, "reports")
-    for p in [os.path.dirname(raw), os.path.dirname(processed), reports]:
-        os.makedirs(p, exist_ok=True)
-    return {"raw": raw, "processed": processed, "reports": reports}
+from config.settings import RAW_OUTPUT, PROCESSED_OUTPUT, REPORT_OUTPUT_DIR
+
+def get_output_paths():
+    os.makedirs(os.path.dirname(RAW_OUTPUT), exist_ok=True)
+    os.makedirs(os.path.dirname(PROCESSED_OUTPUT), exist_ok=True)
+    os.makedirs(REPORT_OUTPUT_DIR, exist_ok=True)
+    return {
+        "raw": RAW_OUTPUT,
+        "processed": PROCESSED_OUTPUT,
+        "report_dir": REPORT_OUTPUT_DIR,
+    }
+
+def save_raw(data, path):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)

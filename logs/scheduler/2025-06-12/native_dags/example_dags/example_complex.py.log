@@ -125,3 +125,17 @@
 [2025-06-12T13:15:23.071+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:15:23.071+0200] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-06-12T13:15:23.074+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:15:23.074+0200] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2025-06-12T13:15:23.079+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2025-06-12T18:43:06.386+0200] {processor.py:186} INFO - Started process (PID=15702) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T18:43:06.387+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-12T18:43:06.387+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:43:06.387+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T18:43:06.391+0200] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T18:43:06.425+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:43:06.425+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T18:43:06.429+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:43:06.428+0200] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-12T18:43:06.433+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2025-06-12T19:11:46.071+0200] {processor.py:186} INFO - Started process (PID=16494) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T19:11:46.071+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-12T19:11:46.071+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:11:46.071+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T19:11:46.076+0200] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T19:11:46.110+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:11:46.110+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T19:11:46.113+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:11:46.113+0200] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-12T19:11:46.118+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds

@@ -496,3 +496,101 @@ Traceback (most recent call last):
 TypeError: can't compare offset-naive and offset-aware datetimes
 [2025-06-12T13:15:58.952+0200] {logging_mixin.py:190} INFO - [2025-06-12T13:15:58.952+0200] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to None, run_after=None
 [2025-06-12T13:15:58.956+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py took 0.250 seconds
+[2025-06-12T18:42:08.303+0200] {processor.py:186} INFO - Started process (PID=15645) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:42:08.304+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-06-12T18:42:08.305+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:42:08.305+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:42:08.449+0200] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:42:08.507+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:42:08.507+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T18:42:08.514+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:42:08.512+0200] {dag.py:1182} ERROR - Failed to fetch run info after data interval None for DAG 'example_workday_timetable'
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 1177, in next_dagrun_info
+    info = self.timetable.next_dagrun_info(
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 83, in next_dagrun_info
+    next_start = max(earliest, DateTime.combine(Date.today(), Time.min))
+TypeError: can't compare offset-naive and offset-aware datetimes
+[2025-06-12T18:42:08.514+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:42:08.514+0200] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to None, run_after=None
+[2025-06-12T18:42:08.519+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py took 0.216 seconds
+[2025-06-12T18:51:51.776+0200] {processor.py:186} INFO - Started process (PID=15872) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:51:51.777+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-06-12T18:51:51.777+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:51:51.777+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:51:51.917+0200] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:51:51.973+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:51:51.973+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T18:51:51.980+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:51:51.978+0200] {dag.py:1182} ERROR - Failed to fetch run info after data interval None for DAG 'example_workday_timetable'
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 1177, in next_dagrun_info
+    info = self.timetable.next_dagrun_info(
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 83, in next_dagrun_info
+    next_start = max(earliest, DateTime.combine(Date.today(), Time.min))
+TypeError: can't compare offset-naive and offset-aware datetimes
+[2025-06-12T18:51:51.980+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:51:51.980+0200] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to None, run_after=None
+[2025-06-12T18:51:51.984+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py took 0.210 seconds
+[2025-06-12T18:55:03.895+0200] {processor.py:186} INFO - Started process (PID=15961) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:55:03.896+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-06-12T18:55:03.896+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:55:03.896+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:55:04.039+0200] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T18:55:04.097+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:55:04.097+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T18:55:04.103+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:55:04.102+0200] {dag.py:1182} ERROR - Failed to fetch run info after data interval None for DAG 'example_workday_timetable'
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 1177, in next_dagrun_info
+    info = self.timetable.next_dagrun_info(
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 83, in next_dagrun_info
+    next_start = max(earliest, DateTime.combine(Date.today(), Time.min))
+TypeError: can't compare offset-naive and offset-aware datetimes
+[2025-06-12T18:55:04.103+0200] {logging_mixin.py:190} INFO - [2025-06-12T18:55:04.103+0200] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to None, run_after=None
+[2025-06-12T18:55:04.108+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py took 0.214 seconds
+[2025-06-12T19:00:10.872+0200] {processor.py:186} INFO - Started process (PID=16102) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:00:10.873+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-06-12T19:00:10.873+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:00:10.873+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:00:11.015+0200] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:00:11.074+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:00:11.074+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T19:00:11.080+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:00:11.079+0200] {dag.py:1182} ERROR - Failed to fetch run info after data interval None for DAG 'example_workday_timetable'
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 1177, in next_dagrun_info
+    info = self.timetable.next_dagrun_info(
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 83, in next_dagrun_info
+    next_start = max(earliest, DateTime.combine(Date.today(), Time.min))
+TypeError: can't compare offset-naive and offset-aware datetimes
+[2025-06-12T19:00:11.080+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:00:11.080+0200] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to None, run_after=None
+[2025-06-12T19:00:11.085+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py took 0.213 seconds
+[2025-06-12T19:03:53.126+0200] {processor.py:186} INFO - Started process (PID=16242) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:03:53.127+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-06-12T19:03:53.127+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:03:53.127+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:03:53.268+0200] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:03:53.326+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:03:53.326+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T19:03:53.332+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:03:53.331+0200] {dag.py:1182} ERROR - Failed to fetch run info after data interval None for DAG 'example_workday_timetable'
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 1177, in next_dagrun_info
+    info = self.timetable.next_dagrun_info(
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 83, in next_dagrun_info
+    next_start = max(earliest, DateTime.combine(Date.today(), Time.min))
+TypeError: can't compare offset-naive and offset-aware datetimes
+[2025-06-12T19:03:53.332+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:03:53.332+0200] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to None, run_after=None
+[2025-06-12T19:03:53.336+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py took 0.212 seconds
+[2025-06-12T19:10:49.309+0200] {processor.py:186} INFO - Started process (PID=16427) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:10:49.310+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-06-12T19:10:49.310+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:10:49.310+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:10:49.455+0200] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:10:49.514+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:10:49.514+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T19:10:49.521+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:10:49.519+0200] {dag.py:1182} ERROR - Failed to fetch run info after data interval None for DAG 'example_workday_timetable'
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 1177, in next_dagrun_info
+    info = self.timetable.next_dagrun_info(
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 83, in next_dagrun_info
+    next_start = max(earliest, DateTime.combine(Date.today(), Time.min))
+TypeError: can't compare offset-naive and offset-aware datetimes
+[2025-06-12T19:10:49.521+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:10:49.521+0200] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to None, run_after=None
+[2025-06-12T19:10:49.526+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py took 0.217 seconds
+[2025-06-12T19:13:51.372+0200] {processor.py:186} INFO - Started process (PID=16628) to work on /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:13:51.372+0200] {processor.py:914} INFO - Processing file /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-06-12T19:13:51.373+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:13:51.373+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:13:51.524+0200] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-06-12T19:13:51.582+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:13:51.582+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T19:13:51.588+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:13:51.587+0200] {dag.py:1182} ERROR - Failed to fetch run info after data interval None for DAG 'example_workday_timetable'
+Traceback (most recent call last):
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 1177, in next_dagrun_info
+    info = self.timetable.next_dagrun_info(
+  File "/Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 83, in next_dagrun_info
+    next_start = max(earliest, DateTime.combine(Date.today(), Time.min))
+TypeError: can't compare offset-naive and offset-aware datetimes
+[2025-06-12T19:13:51.588+0200] {logging_mixin.py:190} INFO - [2025-06-12T19:13:51.588+0200] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to None, run_after=None
+[2025-06-12T19:13:51.593+0200] {processor.py:208} INFO - Processing /Users/gordanaristova/MyProjects/MyRpaProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_workday_timetable.py took 0.222 seconds
